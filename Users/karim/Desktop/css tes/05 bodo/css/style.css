@@ -520,6 +520,148 @@ p {
   left: 0;
 }
 
+
+.code{
+  position: absolute;
+  text-align: center;
+  min-width: 40%;
+  height: 80%  ;
+  left: 5%;
+  top: 12%;
+  padding: 65px;
+  background: rgba(255, 255, 255, 0.8);
+  outline: 4px double #FFFFFF;
+  outline-offset: 8px;  
+  overflow: hidden ; 
+}
+
+.code .content {
+	position: absolute;
+	top: 0px ; 
+	left: 0px ; 
+	max-height: 100% ;
+	margin-top: 30px ;
+
+}
+
+ 
+.wrap-hero-content .code .content p {
+	float: left  ;
+	font-size: 1.5em ; 
+	font-weight: bold ; 
+	margin-left: 15%;
+	margin-top: 1px ;
+ 	
+}
+
+.wrap-hero-content .code .content p:first-of-type , .code .content p:last-of-type{
+	float: left  ;
+	margin-left: 10% ; 
+}
+.code .content p:last-of-type{
+	width: 100% ; 
+	text-align: left ;
+}
+
+
+.view{
+  position: absolute;
+  text-align: center;
+  width: 40%;
+  height: calc(80% - 40px )  ;
+  right: 5%;
+  top: calc(12% + 40px);
+  padding: 65px;
+  background: rgba(255, 255, 255, 0.8);
+  
+}
+.view .input-wrap {
+	position: absolute ; 
+	top: -40px ; 
+	left: 0 ; 
+	width: 100% ;
+	background: white  ; 
+	height: 45px ; 
+}
+
+.view .input-wrap .symbols{
+	display: inline-block ; 
+	width: 15% ;
+	
+	line-height: 45px ; 
+	
+	float: left ; 
+	
+	}
+	
+	.view .input-wrap .symbols i {
+		position: relative ; 
+		margin-right: 3% ; 
+	}
+.view .input-wrap .symbols i:hover::before{
+	color: red ; 
+}
+
+.view .input {
+	 
+	float: left ; 	
+	width: 75% ;
+	text-align: center ; 
+	height: 35px  ; 
+	color: red  ;
+	background: rgba(42,42,40,.9) ; 
+	border-radius: 20px ;
+	margin-top: 5px ; 	
+}
+.view .input i{
+	float: left ; 
+	line-height: 35px ; 
+	color: black ; 
+	padding: 0 10px  ;
+}
+
+.view .input span {
+	
+	float: left  ;  
+	line-height: 35px ; 
+}
+
+.view .content {
+	position: absolute; 
+	top: 55px ;
+
+	
+}
+
+.view .content ul {
+	
+	margin-top: 20px ;
+	text-decoration: none ; 
+	display: inline-block ;
+	list-style: none ; 
+	color: red  ;
+}
+
+.view .content ul li{
+	text-transform: uppercase ; 
+	margin-bottom: 7px ;  
+	padding: 5px ; 
+	border: 1px solid black  ;
+	border-radius: 20px ;
+	color: blue !important ; 
+	font-weight: bold ; 
+	opacity: .1 ; 
+}
+
+.view .content ul li a
+{ color: red ; }
+.view .content ul li:first-of-type , .view .content ul li:hover{
+	background: rgba(42,42,40,1) ;
+	cursor: pointer ; 
+}
+
+
+/*
 .hero-content{
   position: absolute;
   text-align: center;
@@ -534,7 +676,7 @@ p {
   transform: translateX(-50%) translateY(-50%);
 }
 
-
+*/
 
 /*mouse*/
 .mouse-icon {
